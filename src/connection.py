@@ -36,6 +36,7 @@ class Connection:
 
     def close(self):
         """Close the connection."""
+        print("hlo")
         self._is_open = False
 
     def is_open(self):
